@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1635581655277,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1635582158372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+<!DOCTYPE>\r\n+<html>\r\n+\r\n+<head>\r\n+    <link rel=\"stylesheet\" href=\"styles.css\">\r\n+    <link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\">\r\n+</head>\r\n+\r\n+\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1635582423274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,18 +3,37 @@\n \r\n <head>\r\n     <link rel=\"stylesheet\" href=\"styles.css\">\r\n     <link rel=\"shortcut icon\" href=\"/favicon/favicon.ico\" type=\"image/x-icon\">\r\n-</head>\r\n \r\n+    <body>\r\n+        <header>\r\n+            <link href=\"https://fonts.googleapis.com/css2?family=Lato&display=swap\" rel=\"stylesheet\">\r\n+        </header>\r\n \r\n-</html>\n-<!DOCTYPE>\r\n-<html>\r\n-\r\n-<head>\r\n-    <link rel=\"stylesheet\" href=\"styles.css\">\r\n-\r\n+        <h1>Animation Buttons</h1>\r\n+        <p>Hover us and enjoy the satisfying neumorphic animation designs!</p>\r\n+        <div class=\"frame\">\r\n+            <button class=\"custom-btn btn-1\">Read More</button>\r\n+            <button class=\"custom-btn btn-2\">Read More</button>\r\n+            <button class=\"custom-btn btn-3\"><span>Read More</span></button>\r\n+            <button class=\"custom-btn btn-4\"><span>Read More</span></button>\r\n+            <button class=\"custom-btn btn-5\"><span>Read More</span></button>\r\n+            <button class=\"custom-btn btn-6\"><span>Read More</span></button>\r\n+            <button class=\"custom-btn btn-7\"><span>Read More</span></button>\r\n+            <button class=\"custom-btn btn-8\"><span>Read More</span></button>\r\n+            <button class=\"custom-btn btn-9\">Read More</button>\r\n+            <button class=\"custom-btn btn-10\">Read More</button>\r\n+            <button class=\"custom-btn btn-11\">Read More<div class=\"dot\"></div></button>\r\n+            <button class=\"custom-btn btn-12\"><span>Click!</span><span>Read More</span></button>\r\n+            <button class=\"custom-btn btn-13\">Read More</button>\r\n+            <button class=\"custom-btn btn-14\">Read More</button>\r\n+            <button class=\"custom-btn btn-15\">Read More</button>\r\n+            <button class=\"custom-btn btn-16\">Read More</button>\r\n+            <p style=\"font-family: Andale Mono, monospace;\">\r\n+                DEERBUCKS.DESIGNING</p>\r\n+        </div>\r\n+    </body>\r\n </head>\r\n \r\n \r\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1635581655277,
